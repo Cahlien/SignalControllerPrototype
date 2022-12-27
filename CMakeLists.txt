@@ -24,6 +24,10 @@ list(APPEND SOURCE_FILES
     i_signal_receiver.cpp
     receiver.h
     receiver.cpp
+    multi_receiver.h
+    multi_receiver.cpp
+    abstract_signal_content.h
+    abstract_signal_content.cpp
 )
 
 add_executable(SignalControllerPrototype
