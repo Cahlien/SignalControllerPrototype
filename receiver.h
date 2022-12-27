@@ -14,10 +14,10 @@ public:
     ~Receiver() = default;
 
 signals:
-    void broadcast(QVariant);
+    void broadcast(QVariant) override;
 
 public slots:
-    void receive(QVariant);
+    void receive(QVariant) override;
 };
 
 #endif // RECEIVER_H
